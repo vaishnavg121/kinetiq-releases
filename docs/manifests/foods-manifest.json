@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "usableEntries": 13118,
+  "byDataset": {
+    "FNDDS 2021\u20132023 (2024-10-31)": 5431,
+    "SR Legacy (2018-04)": 7687
+  },
+  "excludedMissingCoreOrDuplicate": {
+    "FNDDS 2021\u20132023 (2024-10-31)": 1,
+    "SR Legacy (2018-04)": 106
+  },
+  "bytes": 18935808,
+  "sha256": "d431c956ff98448105827ed6b7039d568407686e32b99913ccce42ed63fed3dc",
+  "sources": [
+    {
+      "dataset": "FNDDS 2021\u20132023 (2024-10-31)",
+      "archiveSha256": "dfb06ae7ddc397ccd570b91c14b75438ab2ba39f64f22d321f61d4a52a77f3eb",
+      "license": "CC0-1.0",
+      "source": "https://fdc.nal.usda.gov/download-datasets/"
+    },
+    {
+      "dataset": "SR Legacy (2018-04)",
+      "archiveSha256": "0fe8ae486a2c8eb42cb96413f058deb51863a46c8fb8eeb4b1fb45006dd338ef",
+      "license": "CC0-1.0",
+      "source": "https://fdc.nal.usda.gov/download-datasets/"
+    }
+  ],
+  "processed": "2026-11-05",
+  "notice": "Nutrition is source composition data, not a measurement of your recipe. Missing micronutrients remain null. Indian regional coverage is incomplete; use weighed recipes and custom foods for unrepresented preparations."
+}

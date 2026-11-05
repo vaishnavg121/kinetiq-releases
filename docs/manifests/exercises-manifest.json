@@ -1,0 +1,30 @@
+{
+  "entries": 1064,
+  "bySource": {
+    "Everkinetic": 287,
+    "free-exercise-db": 777
+  },
+  "sourcePoseIllustrations": 268,
+  "originalMuscleMaps": 796,
+  "visualCoveragePercent": 100,
+  "duplicateNamesMerged": 96,
+  "excludedMissingInstructions": [
+    "Iron Cross",
+    "One-Arm Kettlebell Swings",
+    "Push Press",
+    "Side Bridge",
+    "Side Jackknife"
+  ],
+  "bytes": 1387309,
+  "sha256": "ad0a9668a838a6e0f0b73a260996e36e2b160b99969a609ba3fb7134beff4c57",
+  "everkineticRevision": "6f3ce86eb79b17e7bbaf588b7960149725bc8fc7",
+  "metadataRevision": "f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5",
+  "categories": {
+    "STRENGTH": 813,
+    "STRETCHING": 121,
+    "POWER": 95,
+    "FUNCTIONAL": 21,
+    "CARDIO": 14
+  },
+  "notice": "Muscle maps identify targets, not starting/ending technique poses. Source poses are used only for exact movement associations. Difficulty is shown as unrated when absent. Descriptions are source content, not clinically validated advice."
+}

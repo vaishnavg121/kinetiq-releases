@@ -1,0 +1,1 @@
+Actual KINETIQ UI using isolated local QA records. London coordinates are simulated. Food composition is from the bundled USDA catalog. Workout set is a draft fixture. No Spotify playback is simulated.
