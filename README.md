@@ -6,6 +6,8 @@ I wanted a fitness app that brought those things together, so I started building
 
 **[Download the Beta APK →](https://github.com/vaishnavg121/kinetiq-releases/releases)**
 
+Current Beta: **2.4.0-beta.1 · code 7** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v7-beta)). [Verification](VERIFICATION.md) · [Screenshots and route proofs](docs/assets/).
+
 <table>
 <tr><td><img src="docs/assets/01-home.png" width="260" alt="KINETIQ Home"></td><td><img src="docs/assets/03-food-search.png" width="260" alt="Offline food search"></td><td><img src="docs/assets/05-exercise-library.png" width="260" alt="Illustrated exercise library"></td></tr>
 <tr><td><img src="docs/assets/04-food-quantity.png" width="260" alt="Food-specific quantities and nutrition"></td><td><img src="docs/assets/08-activity-detail.png" width="260" alt="Saved GPS route"></td><td><img src="docs/assets/09-share-preview.png" width="260" alt="Actual route share preview"></td></tr>
