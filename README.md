@@ -6,7 +6,7 @@ I wanted a fitness app that brought those things together, so I started building
 
 **[Download the Beta APK →](https://github.com/vaishnavg121/kinetiq-releases/releases)**
 
-Current Beta: **2.4.0-beta.1 · code 7** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v7-beta)). [Verification](VERIFICATION.md) · [Screenshots and route proofs](docs/assets/).
+Current Beta: **2.4.0-beta.2 · code 8** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v8-beta)). [Verification](READABILITY.md) · [Updated selection screens](docs/assets/).
 
 <table>
 <tr><td><img src="docs/assets/01-home.png" width="260" alt="KINETIQ Home"></td><td><img src="docs/assets/03-food-search.png" width="260" alt="Offline food search"></td><td><img src="docs/assets/05-exercise-library.png" width="260" alt="Illustrated exercise library"></td></tr>
@@ -15,6 +15,7 @@ Current Beta: **2.4.0-beta.1 · code 7** ([release and APKs](https://github.com/
 
 These are real emulator screens using isolated local QA records. The London route is simulated; the workout set is a draft example. No personal fitness records or simulated Spotify playback are presented as real activity.
 
+- **Quick choices:** food and exercise pickers open on recent choices or favorites. Search the full library when you need something new; detailed nutrition, instructions and sources stay on the detail screen.
 - **Food that works offline:** 13,118 source-backed USDA entries, local search and aliases, food-specific portions, custom nutrition, recipes and repeat meals. Online lookups are optional.
 - **Training:** 1,064 catalog records, offline visuals, muscle/equipment/movement filters, favorites, custom exercises, sets, timers, supersets, templates and PR history.
 - **Outdoor sessions:** GPS recording, pause/resume, saved routes and GPX. Route drawing works independently of map tiles. Share PNG/JPEG in Story, portrait or square formats, with explicit endpoint privacy controls.
