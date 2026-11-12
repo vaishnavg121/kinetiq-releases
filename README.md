@@ -6,18 +6,20 @@ I wanted a fitness app that brought those things together, so I started building
 
 **[Download the Beta APK →](https://github.com/vaishnavg121/kinetiq-releases/releases)**
 
-Current Beta: **2.4.0-beta.2 · code 8** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v8-beta)). [Verification](READABILITY.md) · [Updated selection screens](docs/assets/).
+Current Beta: **2.6.0-beta.1 · code 10** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v10-beta)).
 
 <table>
 <tr><td><img src="docs/assets/01-home.png" width="260" alt="KINETIQ Home"></td><td><img src="docs/assets/03-food-search.png" width="260" alt="Offline food search"></td><td><img src="docs/assets/05-exercise-library.png" width="260" alt="Illustrated exercise library"></td></tr>
 <tr><td><img src="docs/assets/04-food-quantity.png" width="260" alt="Food-specific quantities and nutrition"></td><td><img src="docs/assets/08-activity-detail.png" width="260" alt="Saved GPS route"></td><td><img src="docs/assets/09-share-preview.png" width="260" alt="Actual route share preview"></td></tr>
 </table>
 
-These are real emulator screens using isolated local QA records. The London route is simulated; the workout set is a draft example. No personal fitness records or simulated Spotify playback are presented as real activity.
+These are actual code-10 emulator screens using isolated local QA records. [Screenshot provenance and checksums](docs/screenshot-provenance.json). The London route is simulated; the workout set is a draft example. No personal fitness records or simulated Spotify playback are presented as real activity.
 
 - **Quick choices:** food and exercise pickers open on recent choices or favorites. Search the full library when you need something new; detailed nutrition, instructions and sources stay on the detail screen.
+- **Smart nutrition:** food starts at quantity 1.0, supports verified portions and decimal amounts, and can be edited under its original diary record. Explore all 30 stored nutrients, personal goals, macro/meal charts and contributing foods. Missing nutrients remain unknown. Home separates the food target from configurable estimated expenditure; typical exercise is not added again to a maintenance estimate.
 - **Food that works offline:** 13,118 source-backed USDA entries, local search and aliases, food-specific portions, custom nutrition, recipes and repeat meals. Online lookups are optional.
-- **Training:** 1,064 catalog records, offline visuals, muscle/equipment/movement filters, favorites, custom exercises, sets, timers, supersets, templates and PR history.
+- **Training:** 1,064 catalog records, offline visuals, pause/resume with saved drafts, completion summaries, supersets, templates and working-set PR history. 267 exact source-pose pairs support offline two-position previews with manual and play/pause controls.
+- **Interactive history:** tap or drag calorie, protein, volume, weight, pace and distribution charts; inspect contributing records and open the diary or session. Calendar filters and custom ranges use stored account data.
 - **Outdoor sessions:** GPS recording, pause/resume, saved routes and GPX. Route drawing works independently of map tiles. Share PNG/JPEG in Story, portrait or square formats, with explicit endpoint privacy controls.
 - **Your profile:** local Guest records, Google sign-in and optional Firestore sync with separate account stores.
 - **Make it yours:** Lime, Blue, Purple, Graphite and AMOLED; dark cards with restrained halftone and spring feedback. Spotify App Remote/Web API integration is optional.
@@ -36,7 +38,7 @@ In KINETIQ, choose **Settings → About → Beta → Check for Updates**, then d
 
 Physical GPS accuracy/OEM background behavior, real Health Connect sensors and a second real Firebase account/device still need phone testing. Spotify login could not be completed on the review emulator, so live playback is unverified. Food providers can return timeouts/rate limits/503s; local search remains available.
 
-Exercise visuals include **268 exact source pose illustrations and 796 labelled muscle-target maps**. Muscle maps are not starting/ending technique demonstrations. Regional Indian dishes and dedicated yoga/Pilates sequences are incomplete; custom foods, recipes and exercises cover personal additions. Source technique content has not been medically reviewed.
+Exercise visuals include **268 source-illustrated movements (267 matched two-position sequences) and 796 labelled muscle-target maps**. Muscle maps are not starting/ending technique demonstrations. Regional Indian dishes and dedicated yoga/Pilates sequences are incomplete; custom foods, recipes and exercises cover personal additions. Source technique content has not been medically reviewed.
 
 ## Credits, code and iteration
 

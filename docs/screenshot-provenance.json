@@ -1,0 +1,39 @@
+{
+  "appVersion": "2.6.0-beta.1",
+  "versionCode": 10,
+  "captureType": "Actual Android emulator UI using isolated synthetic QA records",
+  "privacy": "No production-account screenshots, personal fitness records, credentials or tokens are included. The London route is simulated.",
+  "fixtures": "Catalog food composition is USDA data. Workout/route examples are deterministic QA fixtures; no Spotify playback or measured Health Connect data is simulated.",
+  "screenshots": [
+    {
+      "file": "docs/assets/01-home.png",
+      "bytes": 338288,
+      "sha256": "29738a1f408dc2a23567e24ed11707fb45fafbe050549d00c72d3a519877875d"
+    },
+    {
+      "file": "docs/assets/03-food-search.png",
+      "bytes": 183803,
+      "sha256": "f9185b1315a1394187bcd045b7a855c05eb7f1f957798478094db8b592ae2f1d"
+    },
+    {
+      "file": "docs/assets/04-food-quantity.png",
+      "bytes": 267793,
+      "sha256": "dd6790e32889ac943d086edabbee44f51aeca7bde3eb534e95800aab7e02de37"
+    },
+    {
+      "file": "docs/assets/05-exercise-library.png",
+      "bytes": 382002,
+      "sha256": "1517deea3519ed7649a2d74006291e8081fce04f445181b1e385608b1af0806b"
+    },
+    {
+      "file": "docs/assets/08-activity-detail.png",
+      "bytes": 390006,
+      "sha256": "470c32a0a0333e155de56eb343ee6a4688c7aab6276d71cf2ef169e27a020688"
+    },
+    {
+      "file": "docs/assets/09-share-preview.png",
+      "bytes": 187614,
+      "sha256": "c1c3e716bf2a87e11be62eafd9a375192b9b2edd4dda0873917c4508243dcefb"
+    }
+  ]
+}
