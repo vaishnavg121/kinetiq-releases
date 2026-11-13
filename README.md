@@ -6,17 +6,20 @@ I wanted a fitness app that brought those things together, so I started building
 
 **[Download the Beta APK →](https://github.com/vaishnavg121/kinetiq-releases/releases)**
 
-Current Beta: **2.6.0-beta.1 · code 10** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v10-beta)).
+Current Beta: **2.7.0-beta.2 · code 12** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v12-beta)).
 
 <table>
 <tr><td><img src="docs/assets/01-home.png" width="260" alt="KINETIQ Home"></td><td><img src="docs/assets/03-food-search.png" width="260" alt="Offline food search"></td><td><img src="docs/assets/05-exercise-library.png" width="260" alt="Illustrated exercise library"></td></tr>
 <tr><td><img src="docs/assets/04-food-quantity.png" width="260" alt="Food-specific quantities and nutrition"></td><td><img src="docs/assets/08-activity-detail.png" width="260" alt="Saved GPS route"></td><td><img src="docs/assets/09-share-preview.png" width="260" alt="Actual route share preview"></td></tr>
 </table>
 
-These are actual code-10 emulator screens using isolated local QA records. [Screenshot provenance and checksums](docs/screenshot-provenance.json). The London route is simulated; the workout set is a draft example. No personal fitness records or simulated Spotify playback are presented as real activity.
+These are actual code-12 emulator screens using isolated local QA records. [Screenshot provenance and checksums](docs/screenshot-provenance.json). The London route is simulated; the workout set is a draft example. No personal fitness records or simulated Spotify playback are presented as real activity.
 
 - **Quick choices:** food and exercise pickers open on recent choices or favorites. Search the full library when you need something new; detailed nutrition, instructions and sources stay on the detail screen.
 - **Smart nutrition:** food starts at quantity 1.0, supports verified portions and decimal amounts, and can be edited under its original diary record. Explore all 30 stored nutrients, personal goals, macro/meal charts and contributing foods. Missing nutrients remain unknown. Home separates the food target from configurable estimated expenditure; typical exercise is not added again to a maintenance estimate.
+- **Barcode meals:** scan or type a code, choose a meal and precise quantity, then save through the same editable food form. Local matches work offline; unavailable products offer manual creation. Available vitamins and minerals use verified unit conversions.
+- **Energy you can trace:** supported walks, runs, rides, hikes and resistance sessions contribute eligible active estimates. Provider totals, active readings and personal step estimates are reconciled by source and time so overlaps contribute once. Missing inputs remain unavailable, and full-day projections are labelled.
+- **Readable Home:** a focused energy-balance display, compact nutrition sections, useful workout controls and openly licensed Barlow Condensed / Atkinson Hyperlegible typography. Small-screen layouts are checked at 150% text size.
 - **Food that works offline:** 13,118 source-backed USDA entries, local search and aliases, food-specific portions, custom nutrition, recipes and repeat meals. Online lookups are optional.
 - **Training:** 1,064 catalog records, offline visuals, pause/resume with saved drafts, completion summaries, supersets, templates and working-set PR history. 267 exact source-pose pairs support offline two-position previews with manual and play/pause controls.
 - **Interactive history:** tap or drag calorie, protein, volume, weight, pace and distribution charts; inspect contributing records and open the diary or session. Calendar filters and custom ranges use stored account data.
@@ -42,6 +45,6 @@ Exercise visuals include **268 source-illustrated movements (267 matched two-pos
 
 ## Credits, code and iteration
 
-USDA FoodData Central food data is public domain/CC0. Everkinetic / Greg Priday exercise data and vectors are CC BY-SA 4.0. Additional free-exercise-db **metadata** is Unlicensed/public-domain; its uncertain photographs are excluded. Original muscle maps are KINETIQ code. [Dataset provenance, licenses and coverage](docs/DATA_SOURCES.md).
+USDA FoodData Central food data is public domain/CC0. Barlow Condensed and Atkinson Hyperlegible are bundled under SIL OFL 1.1; original font licences remain in the APK. Everkinetic / Greg Priday exercise data and vectors are CC BY-SA 4.0. Additional free-exercise-db **metadata** is Unlicensed/public-domain; its uncertain photographs are excluded. Original muscle maps are KINETIQ code. [Dataset provenance, licenses and coverage](docs/DATA_SOURCES.md).
 
 AI agents contributed substantially to the code, fixes and tests. I review the result and keep iterating from actual bugs and phone feedback. The existing source repository is currently private because older history contains authenticated screenshots and device-derived fixtures. This public distribution repository hosts reviewed screenshots, notes and signed releases; history has not been rewritten or force-pushed.

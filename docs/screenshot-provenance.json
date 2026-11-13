@@ -1,39 +1,45 @@
 {
-  "appVersion": "2.6.0-beta.1",
-  "versionCode": 10,
+  "appVersion": "2.7.0-beta.2",
+  "versionCode": 12,
   "captureType": "Actual Android emulator UI using isolated synthetic QA records",
   "privacy": "No production-account screenshots, personal fitness records, credentials or tokens are included. The London route is simulated.",
-  "fixtures": "Catalog food composition is USDA data. Workout/route examples are deterministic QA fixtures; no Spotify playback or measured Health Connect data is simulated.",
+  "fixtures": "Catalog search composition uses USDA data. The Home oats bowl and projection, workout and route examples are deterministic QA fixtures. Provider-energy test screenshots are synthetic, not live sensor measurements. No Spotify playback is simulated.",
   "screenshots": [
     {
       "file": "docs/assets/01-home.png",
-      "bytes": 338288,
-      "sha256": "29738a1f408dc2a23567e24ed11707fb45fafbe050549d00c72d3a519877875d"
+      "source": "preview/energy-dashboard/01-home-lime.png",
+      "bytes": 395152,
+      "sha256": "4226aa76ad0145e5a89d06f509c5df08f3b423c6d09a03cea3c5b5ca76d388cf"
     },
     {
       "file": "docs/assets/03-food-search.png",
-      "bytes": 183803,
-      "sha256": "f9185b1315a1394187bcd045b7a855c05eb7f1f957798478094db8b592ae2f1d"
+      "source": "preview/energy-showcase/03-food-search.png",
+      "bytes": 184727,
+      "sha256": "9347589b05931063435682bcccc91088d43039f0f4c513a5ece561c9f3d65726"
     },
     {
       "file": "docs/assets/04-food-quantity.png",
-      "bytes": 267793,
-      "sha256": "dd6790e32889ac943d086edabbee44f51aeca7bde3eb534e95800aab7e02de37"
+      "source": "preview/energy-showcase/04-food-quantity.png",
+      "bytes": 263108,
+      "sha256": "a9b239d502260d7107f43f0c0aa981a7d0fe753d3418a3bafbaee3ed30fc0aeb"
     },
     {
       "file": "docs/assets/05-exercise-library.png",
-      "bytes": 382002,
-      "sha256": "1517deea3519ed7649a2d74006291e8081fce04f445181b1e385608b1af0806b"
+      "source": "preview/energy-showcase/05-exercise-library.png",
+      "bytes": 376372,
+      "sha256": "46932369b663142488bcf37cae8d4d0ad645df425e84a6248790cd9029741574"
     },
     {
       "file": "docs/assets/08-activity-detail.png",
-      "bytes": 390006,
-      "sha256": "470c32a0a0333e155de56eb343ee6a4688c7aab6276d71cf2ef169e27a020688"
+      "source": "preview/energy-showcase/08-activity-detail.png",
+      "bytes": 458358,
+      "sha256": "a18869109d46be165fa0a8794a15354de845737706c68ee05f39c5c0a77cd339"
     },
     {
       "file": "docs/assets/09-share-preview.png",
-      "bytes": 187614,
-      "sha256": "c1c3e716bf2a87e11be62eafd9a375192b9b2edd4dda0873917c4508243dcefb"
+      "source": "preview/energy-showcase/09-share-preview.png",
+      "bytes": 188621,
+      "sha256": "defecd123665cce9cfd7cfdc6096ea95dcca479b73ee7f5c60594e88ff2784d5"
     }
   ]
 }
