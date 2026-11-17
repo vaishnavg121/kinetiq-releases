@@ -1,45 +1,45 @@
 {
-  "appVersion": "2.8.0-beta.1",
-  "versionCode": 13,
+  "appVersion": "2.8.0-beta.2",
+  "versionCode": 14,
   "captureType": "Actual Android emulator UI using isolated synthetic QA records",
-  "privacy": "No production-account screenshots, personal fitness records, credentials or tokens are included. The London route is simulated.",
-  "fixtures": "Catalog search composition uses USDA data. The Home oats bowl and projection, workout and route examples are deterministic QA fixtures. These are actual code-13 debug-package captures using the delivered release implementation. Provider-energy test screenshots are synthetic, not live sensor measurements. No Spotify playback is simulated.",
+  "privacy": "No production-account screenshots, personal records or credentials.",
+  "fixtures": "Actual delivered debug-package captures. Provider values, workout and London route are synthetic QA fixtures; no physical sensor or Spotify playback success is implied.",
   "screenshots": [
     {
       "file": "docs/assets/01-home.png",
-      "source": "preview/home-dashboard/01-home-lime.png",
-      "bytes": 207514,
-      "sha256": "f004dd16f89c1c3b7fc2b9bae7364886f619a17999f32477b1db0f3def139e14"
+      "source": "preview/readable-home/01-home.png",
+      "bytes": 373451,
+      "sha256": "8459973adea6f6c40c5ec463cf98906b4312aea1db8a6ea15afb2998a6e99d91"
     },
     {
       "file": "docs/assets/03-food-search.png",
-      "source": "preview/home-showcase/03-food-search.png",
-      "bytes": 183825,
-      "sha256": "574c079e4daec3e9fcc36fe88d38e960b92106fef9e1b7f220df150db7f084dd"
+      "source": "preview/readable-showcase/03-food-search.png",
+      "bytes": 184440,
+      "sha256": "ec8d5c6dd36b84fa7f4b3d46dfda7b38e616115703d32f5a57749994ffe78b62"
     },
     {
       "file": "docs/assets/04-food-quantity.png",
-      "source": "preview/home-showcase/04-food-quantity.png",
-      "bytes": 320598,
-      "sha256": "a6e19353a180f9cfcc4582b77511e3ffa637e34a883ded238a869871a4154b1c"
+      "source": "preview/readable-showcase/04-food-quantity.png",
+      "bytes": 322076,
+      "sha256": "8ee25c0cb39f664b7798f0676730793fece2acbc6e0662a2574f6628e253ae73"
     },
     {
       "file": "docs/assets/05-exercise-library.png",
-      "source": "preview/home-showcase/05-exercise-library.png",
-      "bytes": 375107,
-      "sha256": "d699fa2bf1452e27a019ed9314d9966a1e67af5c336ba7f04d8433630e5fa50e"
+      "source": "preview/readable-showcase/05-exercise-library.png",
+      "bytes": 375867,
+      "sha256": "57f4d5dcce6b90b1253802ad13d20cef04de031087cabb90cb95a0009fcd00a9"
     },
     {
       "file": "docs/assets/08-activity-detail.png",
-      "source": "preview/home-showcase/08-activity-detail.png",
-      "bytes": 430751,
-      "sha256": "85a2256d2b7f9671bf5f5a2f755f585cef26f8a9b9c499c77b5b27a19af19b22"
+      "source": "preview/readable-showcase/08-activity-detail.png",
+      "bytes": 431148,
+      "sha256": "ce6d52a353b7c701b75075bca63cd76f21b20813cf5161e7a49680808a527b75"
     },
     {
       "file": "docs/assets/09-share-preview.png",
-      "source": "preview/home-showcase/09-share-preview.png",
-      "bytes": 187182,
-      "sha256": "260f41d3d0c36699625c4c74a2b8d50f352922e4cd3584754ef42953aacb5696"
+      "source": "preview/readable-showcase/09-share-preview.png",
+      "bytes": 188080,
+      "sha256": "f00f7101035136c190ac4a6059563d288f1a3711c5f78b772d445a32b464c259"
     }
   ]
 }

@@ -6,20 +6,20 @@ I wanted a fitness app that brought those things together, so I started building
 
 **[Download the Beta APK →](https://github.com/vaishnavg121/kinetiq-releases/releases)**
 
-Current Beta: **2.8.0-beta.1 · code 13** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v13-beta)).
+Current Beta: **2.8.0-beta.2 · code 14** ([release and APKs](https://github.com/vaishnavg121/kinetiq-releases/releases/tag/v14-beta)).
 
 <table>
 <tr><td><img src="docs/assets/01-home.png" width="260" alt="KINETIQ Home"></td><td><img src="docs/assets/03-food-search.png" width="260" alt="Offline food search"></td><td><img src="docs/assets/05-exercise-library.png" width="260" alt="Illustrated exercise library"></td></tr>
 <tr><td><img src="docs/assets/04-food-quantity.png" width="260" alt="Food-specific quantities and nutrition"></td><td><img src="docs/assets/08-activity-detail.png" width="260" alt="Saved GPS route"></td><td><img src="docs/assets/09-share-preview.png" width="260" alt="Actual route share preview"></td></tr>
 </table>
 
-These are actual code-13 emulator screens using isolated local QA records. [Screenshot provenance and checksums](docs/screenshot-provenance.json). The London route is simulated; the workout set is a draft example. No personal fitness records or simulated Spotify playback are presented as real activity.
+These are actual code-14 emulator screens using isolated local QA records. [Screenshot provenance and checksums](docs/screenshot-provenance.json). The London route is simulated; the workout set is a draft example. No personal fitness records or simulated Spotify playback are presented as real activity.
 
 - **Quick choices:** food and exercise pickers open on recent choices or favorites. Search the full library when you need something new; detailed nutrition, instructions and sources stay on the detail screen.
 - **Smart nutrition:** food starts at quantity 1.0, supports verified portions and decimal amounts, and can be edited under its original diary record. Explore all 30 stored nutrients, personal goals, macro/meal charts and contributing foods. Missing nutrients remain unknown. Home separates the food target from configurable estimated expenditure; typical exercise is not added again to a maintenance estimate.
 - **Barcode meals:** scan or type a code, choose a meal and precise quantity, then save through the same editable food form. Local matches work offline; unavailable products offer manual creation. Available vitamins and minerals use verified unit conversions.
 - **Energy you can trace:** supported walks, runs, rides, hikes and resistance sessions contribute eligible active estimates. Provider totals, active readings and personal step estimates are reconciled by source and time so overlaps contribute once. Missing inputs remain unavailable, and full-day projections are labelled.
-- **Your day, in focus:** a new energy dial, five distinct metric drill-downs, daily activity immediately below energy, compact nutrition and workout controls. History supports source inspection, hourly steps and exact saved entries. Checked at 150% text size.
+- **Readable Home:** rounded energy, activity, nutrition and training cards with clear spacing and short labels. Calorie deficit/surplus and energy rows retain their full stored decimal precision. Detail/history inspection remains available. Checked at 150% text size.
 - **Food that works offline:** 13,118 source-backed USDA entries, local search and aliases, source-backed item/household portions with provenance, custom nutrition, recipes and repeat meals. Online lookups are optional.
 - **Training:** 1,064 catalog records, offline visuals, pause/resume with saved drafts, completion summaries, supersets, templates and working-set PR history. 267 exact source-pose pairs support offline two-position previews with manual and play/pause controls.
 - **Interactive history:** tap or drag calorie, protein, volume, weight, pace and distribution charts; inspect contributing records and open the diary or session. Calendar filters and custom ranges use stored account data.
